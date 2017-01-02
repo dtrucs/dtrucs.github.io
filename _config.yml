@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Aurore &amp; Florian
+baseline: en chemin
+description: > # this means to ignore newlines until "baseurl:"
+  Voyage en Amérique Latine de l'Argentine jusqu'au bout du monde.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Encoding
+encoding: utf-8
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Sass settings
+sass:
+  add_charset: true
+  sass_dir: assets/sass
+  style: :extended #:compressed
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - CNAME
+  - node_modules
+
+# Plugin settings
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-autoprefixer
+
+autoprefixer:
+  browsers:
+    - last 4 versions
+
+paginate: 10
+paginate_path: "articles/page:num"
+
+# Comments
+disqus-shortname: auroreflo
+
+# Map
+gmapKey: AIzaSyCXi3i3J9OwaUjLMsPbqGrbTtQ4VeRZWAQ

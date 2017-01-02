@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'fr' }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="u-container">
+
+
+        <main class="c-main">
+
+          {{ content }}
+
+        </main>
+
+        <div id="map" class="c-map"></div>
+
+        {% include footer.html %}
+
+    </div>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.gmapKey }}&v=3.exp&sensor=false"></script>
+    <script src={{ "/assets/js/main.js" | prepend: site.baseurl }}></script>
+
+  </body>
+
+</html>

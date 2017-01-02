@@ -1,0 +1,15 @@
+
+<header class="c-header">
+    {% if page.url == "/" %}
+        <h1 class="c-header__top">
+    {% else %}
+        <p class="c-header__top"><a class="c-header__link" href="/">
+    {% endif %}
+        <span class="c-header__title">{{ site.title }}</span> <span class="c-header__subtitle">{{ site.baseline }}</span>
+    {% if page.url == "/" %}
+        </h1>
+    {% else %}
+        </a></p>
+    {% endif %}
+
+</header>

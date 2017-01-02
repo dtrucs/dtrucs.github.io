@@ -1,0 +1,17 @@
+---
+layout: default
+title: Aurore & Florian en balade
+---
+
+{% for i in (1..10) %}
+    {% for post in site.posts %}
+    <div class="c-post">
+       {% if post.img %}
+          <img class="c-post__image" src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt >
+       {% endif %}
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="c-post__date">{% include date.html param=post.date %}</time>
+          <a class="c-post__title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+          <div class="c-post__content">{{post.content | markdownify}}</div>
+    </div>
+   {% endfor %}
+{% endfor %}

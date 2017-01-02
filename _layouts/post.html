@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="c-post js-map-coordinates"{% if page.start %} data-from="{{ page.start }}"{% endif %}{% if page.end %} data-to="{{ page.end }}"{% endif %}{% if page.plane %} data-polylines="{{ page.plane }}"{% endif %}>
+   {% if page.img %}
+    <img class="c-post__image" src={{ "/images/" | prepend: site.baseurl | append : page.img}} alt>
+    {% endif %}
+    <article>
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="c-post__date">{% include date.html param=page.date %}</time>
+        <h1 class="c-post__title">{{page.title}}</h1>
+        <div class="c-post__content">{{page.content | markdownify}}</div>
+    </article>
+</div>
+
+{% include disqus.html %}
