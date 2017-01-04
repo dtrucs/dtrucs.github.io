@@ -12,11 +12,11 @@ body {
 }
 
 .u-container {
-   position: relative;
-   margin-top: 8.5em;
+   position: absolute;
+   top: 8.5em;
+   width: 100%;
    z-index: 2;
    background: #fff;
-   overflow: hidden;
    clip: rect(auto, auto, auto, auto);
    clip-path: inset(0 0 0 0);
 }
@@ -27,7 +27,6 @@ body {
     width: 100%;
     text-align: center;
     z-index: 1;
-    background: red;
     &__top {
         margin: 2em 0;
         font-size: 1em;
@@ -125,6 +124,7 @@ body {
     height: 100%;
     z-index: -2;
     opacity: .5;
+    backface-visibility: hidden;
 }
 
 .map-icon {
