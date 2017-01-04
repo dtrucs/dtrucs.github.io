@@ -7,16 +7,14 @@
 
     {% include header.html %}
 
-    <div class="u-container">
+    <div class="u-container{% if layout.post == true %} u-container--left{% endif %}">
 
 
-        <main class="c-main">
+        <main class="c-main{% if layout.post == true %} c-main--left{% endif %}">
 
           {{ content }}
 
         </main>
-
-        <div id="map" class="c-map"></div>
 
         {% include footer.html %}
 

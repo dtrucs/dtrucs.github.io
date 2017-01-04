@@ -71,6 +71,7 @@ body {
     min-width: 18.5em;
     max-width: 35em;
     padding: 2em;
+    margin: auto;
 }
 
 .c-post {
@@ -120,31 +121,12 @@ body {
 }
 
 .c-map {
-    position: fixed !important;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    z-index: -2;
-    opacity: .5;
-    backface-visibility: hidden;
-}
-
-.map-icon {
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    height: 300px;
 }
 
 
-.map-icon-label .u-map-icon {
+.u-map-icon {
     display: block;
     position: relative;
     width: 48px;
@@ -166,7 +148,7 @@ body {
 
 
 @media screen and (min-width: 48em) {
-    .u-container::after {
+    .u-container--left::after {
         content: "";
         position: fixed;
         top: 0;
@@ -176,19 +158,24 @@ body {
         background: linear-gradient(90deg, #fff 50%, transparent 66%);
         z-index: -1;
     }
-    .c-main {
+    .c-main--left {
+        margin: 0;
         width: 50%;
     }
     .c-map {
-        opacity: 1;
+        position: fixed !important;
+        top: 0;
         left: 50%;
         width: 50%;
+        height: 100%;
+        z-index: -2;
+        backface-visibility: hidden;
     }
 }
 
 @media screen and (min-width: 64em) {
-    .u-container::after {
-        background:linear-gradient(90deg, #fff 35em, transparent 41em);
+    .u-container--left::after {
+        background: linear-gradient(90deg, #fff 35em, transparent 41em);
     }
     .c-map {
         left: 35em;

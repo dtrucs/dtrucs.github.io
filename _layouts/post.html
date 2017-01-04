@@ -1,5 +1,6 @@
 ---
 layout: default
+post: true
 custom_js:
 - https://maps.googleapis.com/maps/api/js?key=%GMAPKEY%&v=3.exp&sensor=false
 - post
@@ -15,5 +16,7 @@ custom_js:
         <div class="c-post__content">{{page.content | markdownify}}</div>
     </article>
 </div>
+
+<div id="map" class="c-map"></div>
 
 {% include disqus.html %}

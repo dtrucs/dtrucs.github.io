@@ -235,5 +235,11 @@ function initMap() {
 
     codeAddress(from, step1);
 
+    google.maps.event.addDomListener(window, 'resize', function() {
+        var center = map.getCenter();
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(center);
+    });
+
 }
 google.maps.event.addDomListener(window, 'load', initMap);
