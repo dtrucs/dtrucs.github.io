@@ -239,6 +239,7 @@ function initMap() {
         var center = map.getCenter();
         google.maps.event.trigger(map, "resize");
         map.setCenter(center);
+        to && map.fitBounds(bounds);
     });
 
 }
