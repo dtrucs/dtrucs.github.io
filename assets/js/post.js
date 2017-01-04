@@ -123,7 +123,7 @@ function initMap() {
         bounds = new google.maps.LatLngBounds(),
         $coordinates = document.querySelector('.js-map-coordinates');
 
-    if( !$coordinates ) {
+    if (!$coordinates) {
         return;
     }
 
