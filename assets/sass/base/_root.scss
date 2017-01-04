@@ -45,14 +45,14 @@ body {
         display: block;
         margin: -0.5em 0 0.5em;
         font: 400 1em/1.5em $font-sans-serif;
-        text-transform: capitalize;
     }
 
 }
 
 .c-footer {
-    margin: 0 0 4em;
+    padding: 2em;
     text-align: center;
+    background: #fff;
     &__nav {
     }
     &__nav-list {
@@ -61,6 +61,9 @@ body {
     }
     &__nav-item {
         display: inline-block;
+        & + &::before {
+            content: " - ";
+        }
     }
 }
 

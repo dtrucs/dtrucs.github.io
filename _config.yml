@@ -7,7 +7,7 @@
 
 # Site settings
 title: Aurore &amp; Florian
-baseline: en chemin
+baseline: En chemin
 description: > # this means to ignore newlines until "baseurl:"
   Voyage en Amérique Latine de l'Argentine jusqu'au bout du monde.
 baseurl: "" # the subpath of your site, e.g. /blog
