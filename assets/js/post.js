@@ -121,8 +121,13 @@ function initMap() {
     var map,
         geocoder = new google.maps.Geocoder(),
         bounds = new google.maps.LatLngBounds(),
-        $coordinates = document.querySelector('.js-map-coordinates'),
-        from = $coordinates.dataset.from || false,
+        $coordinates = document.querySelector('.js-map-coordinates');
+
+    if( !$coordinates ) {
+        return;
+    }
+
+    var from = $coordinates.dataset.from || false,
         to = $coordinates.dataset.to || false,
         polylines = $coordinates.dataset.polylines || false;
 

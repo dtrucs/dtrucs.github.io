@@ -23,8 +23,16 @@
     </div>
 
 
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.gmapKey }}&v=3.exp&sensor=false"></script>
-    <script src={{ "/assets/js/main.js" | prepend: site.baseurl }}></script>
+    {% if layout.custom_js %}
+      {% for js_file in layout.custom_js %}
+        {% capture file %}{{ js_file | slice: 0,4 }}{% endcapture %}
+        {% if file == "http" %}
+          <script src='{{ js_file | replace: '%GMAPKEY%', site.gmapKey }}'></script>
+        {% else %}
+          <script src='{{ "/assets/js/" | append: js_file | append: ".js" | prepend: site.baseurl }}'></script>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
   </body>
 

@@ -1,5 +1,8 @@
 ---
 layout: default
+custom_js:
+- https://maps.googleapis.com/maps/api/js?key=%GMAPKEY%&v=3.exp&sensor=false
+- post
 ---
 
 <div class="c-post js-map-coordinates"{% if page.start %} data-from="{{ page.start }}"{% endif %}{% if page.end %} data-to="{{ page.end }}"{% endif %}{% if page.plane %} data-polylines="{{ page.plane }}"{% endif %}>
