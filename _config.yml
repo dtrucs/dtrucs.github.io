@@ -48,6 +48,9 @@ paginate_path: "articles/page:num"
 
 excerpt_separator: <!--more-->
 
+# Analytics
+analytics: UA-90148129-1
+
 # Comments
 disqus-shortname: auroreflo
 
