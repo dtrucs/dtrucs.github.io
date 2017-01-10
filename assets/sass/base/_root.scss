@@ -6,6 +6,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.js .u-js-hide {
+    display: none;
+}
+
+.no-js .u-no-js-hide {
+    display: none;
+}
+
 .u-fade {
     opacity: 0;
     transition: opacity 0.3s;
@@ -99,6 +107,16 @@ body {
     &__button {
         display: block;
         margin: 0 auto;
+        padding: 0.5em 1em;
+        border: 0;
+        line-height: 2em;
+        color: #fff;
+        background: $color-secondary;
+        transition: 0.2s background;
+        &:hover,
+        &:focus {
+            background: $color-secondary-darken;
+        }
     }
     &__content {
 
