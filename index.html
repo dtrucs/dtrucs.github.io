@@ -8,7 +8,10 @@ title: Aurore & Florian en balade
    {% if post.img %}
       <img class="c-post__image" src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt >
    {% endif %}
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="c-post__date">{% include date.html param=post.date %}</time>
+      <div class="c-post__header">
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="c-post__date">{% include date.html param=post.date %}</time>
+        {% if post.author %}<span class="c-post__author">par {{ post.author }}</span>{% endif %}
+      </div>
       <a class="c-post__title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
       <div class="c-post__content">{{post.excerpt | markdownify}}</div>
 </div>

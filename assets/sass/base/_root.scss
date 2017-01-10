@@ -90,11 +90,21 @@ body {
         font: 400 2em/1em $font-serif;
         color: $color-primary-darken;
     }
-    &__date {
+    &__header {
         display: block;
         margin: 2em 0 0;
+    }
+    &__date {
         text-transform: uppercase;
         font-size: 0.8em;
+    }
+    &__author {
+        font-style: normal;
+        font-size: 0.9em;
+        text-transform: capitalize;
+        &::before {
+            content: " ~ ";
+        }
     }
     &__content {
         font-size: 1.2em;

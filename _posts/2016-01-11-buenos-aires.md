@@ -3,6 +3,7 @@ layout: post
 title: Buenos Aires nous voilà
 comments: true
 start: Buenos Aires, Argentina
+author: Aurore
 ---
 
 Après l'hiver, bonjour La chaleur accablante.
