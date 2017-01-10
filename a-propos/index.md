@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 title: À propos
 navigation_weight: 1
 ---
-
-# À propos
 
 Chercher l'insécurité de l'emploi, rendre un appartement confortable et douillet, se débarasser de nos meubles et affaires, et quitter la France et sa capitale, voilà le choix que nous avons fait en août 2016.
 
