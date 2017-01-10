@@ -10,6 +10,6 @@ title: Aurore & Florian en balade
    {% endif %}
       <time datetime="{{ post.date | date_to_xmlschema }}" class="c-post__date">{% include date.html param=post.date %}</time>
       <a class="c-post__title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-      <div class="c-post__content">{{post.content | markdownify}}</div>
+      <div class="c-post__content">{{post.excerpt | markdownify}}</div>
 </div>
 {% endfor %}

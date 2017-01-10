@@ -6,7 +6,7 @@ custom_js:
 - post
 ---
 
-<div class="c-post js-map-coordinates"{% if page.start %} data-from="{{ page.start }}"{% endif %}{% if page.end %} data-to="{{ page.end }}"{% endif %}{% if page.plane %} data-polylines="{{ page.plane }}"{% endif %}>
+<div class="c-post{% if page.start %}  js-map-coordinates{% endif %}"{% if page.start %} data-from="{{ page.start }}"{% endif %}{% if page.end %} data-to="{{ page.end }}"{% endif %}{% if page.plane %} data-polylines="{{ page.plane }}"{% endif %}>
    {% if page.img %}
     <img class="c-post__image" src={{ "/images/" | prepend: site.baseurl | append : page.img}} alt>
     {% endif %}
@@ -17,6 +17,6 @@ custom_js:
     </article>
 </div>
 
-<div id="map" class="c-map"></div>
+{% if page.start %}<div id="map" class="c-map"></div>{% endif %}
 
 {% include disqus.html %}
