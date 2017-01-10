@@ -7,11 +7,11 @@
 
 # Site settings
 title: Aurore &amp; Florian
-baseline: Dónde están?
+baseline: ¿ Dónde están ?
 description: > # this means to ignore newlines until "baseurl:"
   Voyage en Amérique Latine de l'Argentine jusqu'au bout du monde.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://donde-estan.fr" # the base hostname & protocol for your site
 
 # Encoding
 encoding: utf-8
