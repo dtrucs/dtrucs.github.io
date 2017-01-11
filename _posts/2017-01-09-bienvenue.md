@@ -12,7 +12,7 @@ Pour commencer, nous n'avons jamais blogué de notre vie donc. Ouais. La ligne �
 
 <!--more-->
 
-Nous avons le plaisir de vous annoncer que la grammaire et l'orthographe sont désormais en vacances. Totalement *YOLO*., nous rédigeons le tout sans correcteur orthographique. 
+Nous avons le plaisir de vous annoncer que la grammaire et l'orthographe sont désormais en vacances. Totalement *YOLO* nous rédigeons le tout sans correcteur orthographique. 
 J'espère que Mme Maurin ma prof de français en 3ème ne lira jamais ce blog.
 
 Ensuite, le développement de la galerie photo n'est pas encore prêt sur le blog, *Work In Progress* comme on dit dans le métier de développeur.
