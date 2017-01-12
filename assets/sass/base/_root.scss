@@ -110,6 +110,18 @@ body {
         font-size: 1.2em;
         line-height: 1.5em;
     }
+    &__more {
+        text-align: right;
+    }
+    &__more-link {
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+        &::after {
+            content: " > ";
+        }
+    }
 }
 
 .c-comments {

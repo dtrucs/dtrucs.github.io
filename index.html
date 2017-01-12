@@ -14,5 +14,8 @@ title: Aurore & Florian en balade
       </div>
       <a class="c-post__title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
       <div class="c-post__content">{{post.excerpt | markdownify}}</div>
+      <div class="c-post__more">
+        <a class="c-post__more-link" href="{{post.url | prepend: site.baseurl}}" rel="nofollow">Lire la suite</a>
+      </div>
 </div>
 {% endfor %}
