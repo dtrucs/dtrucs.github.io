@@ -17,6 +17,8 @@ Après s'être occupé de tout le travail administratif, quitter nos jobs, vendr
 Et hop, nous avons rendu notre appartement hier après-midi !
 Une fois dans l'aéroport, arrivés 2 heures avant le décollage, on sent désormais cette tension et ce stress redescendrent d'un coup. A NOUS LES AMERIQUES !
 
+<!--more-->
+
 Sereinement, shooté à la fatigue, nous nous dirigeons vers l'hôtesse qui enregistre les bagages, celle-ci toute souriante pèse le premier bagage, imprime le ticket à mettre dessus et nous demande notre date de retour, lui rendant son sourire nous lui indiquons fièrement que nous n'en avons pas.
 
 Insatisfaite de notre réponse elle nous lance "Si vous n'avez pas de billet de sortie de territoire dans les 3 mois du visa vacance, vous ne pouvez pas embarquer" nettement moins souriante puis elle s'acharne à perforer le ticket fraichement imprimé avec son stylo. Elle ajoute que les billets moins chère qu'elle trouve sont pas à moins de 1 000 euros et qu'on a 30 minutes pour trouver une solution.
