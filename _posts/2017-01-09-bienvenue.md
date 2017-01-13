@@ -6,7 +6,7 @@ comments: true
 start: Paris, France
 ---
 
-Derrière ce titre totalement original, vous vous sentez déjà embarqué dans une aventure formidable qui vous permettra de suivre nos plus glorieuses péripéties, des photos à couper le souffle, ou encore des anecdotes dignes d'une situation à la Tarantino ! On se détend, on se calme un peu, on est bien là. 
+Derrière ce titre totalement original, vous vous sentez déjà embarqués dans une aventure formidable qui vous permettra de suivre nos plus glorieuses péripéties, des photos à couper le souffle, ou encore des anecdotes dignes d'une situation à la Tarantino ! On se détend, on se calme un peu, on est bien là. 
 
 Pour commencer, nous n'avons jamais blogué de notre vie donc. Ouais. La ligne éditoriale risque d'être un peu chaotique.
 
