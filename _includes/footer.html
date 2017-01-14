@@ -1,6 +1,7 @@
 <footer class="c-footer">
     <nav class="c-footer__nav">
         <ul class="c-footer__nav-list">
+            <li class="c-footer__nav-item"><a class="c-footer__nav-link{% if '/' == page.url %} c-footer__nav-link--active{% endif %}" href="/">Accueil</a></li>
             {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
             {% for p in navigation_pages %}
                 {% if p.navigation_weight %}
