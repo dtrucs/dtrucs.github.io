@@ -168,6 +168,14 @@ body {
     height: 300px;
 }
 
+.c-media {
+    margin: 1em 0;
+    &__caption {
+        color: $color-primary-darken;
+        font-size: 0.9em;
+
+    }
+}
 
 .u-map-icon {
     display: block;
@@ -214,6 +222,9 @@ body {
         z-index: -2;
         backface-visibility: hidden;
     }
+    .c-media__img {
+        max-width: 36em;
+    }
 }
 
 @media screen and (min-width: 64em) {
@@ -223,5 +234,8 @@ body {
     .c-map {
         left: 35em;
         width: calc(100% - 35em);
+    }
+    .c-media__img {
+        max-width: 48em;
     }
 }

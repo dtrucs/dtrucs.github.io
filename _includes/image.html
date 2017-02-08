@@ -1,0 +1,8 @@
+{% if include.image %}
+<figure class="c-media">
+    <img class="c-media__img" src="{{ site.url }}/medias/{{ include.image }}" alt />
+{% if include.caption %}
+    <figcaption class="c-media__caption">{{ include.caption }}</figcaption>
+{% endif %}
+</figure>
+{% endif %}
