@@ -111,6 +111,10 @@ body {
         line-height: 2em;
         p {
             margin: 2em 0;
+            text-align: justify;
+        }
+        ul {
+            padding: 0 1em;
         }
     }
     &__more {
@@ -173,7 +177,6 @@ body {
     &__caption {
         color: $color-primary-darken;
         font-size: 0.9em;
-
     }
 }
 
