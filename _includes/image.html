@@ -1,6 +1,6 @@
 {% if include.image %}
 <figure class="c-media">
-    <img class="c-media__img" src="{{ site.url }}/medias/{{ include.image }}" alt />
+    <img class="c-media__img{% if include.size == 'large' %} c-media__img--large{% endif %}" src="{{ site.url }}/medias/{{ include.image }}" alt />
 {% if include.caption %}
     <figcaption class="c-media__caption">{{ include.caption }}</figcaption>
 {% endif %}

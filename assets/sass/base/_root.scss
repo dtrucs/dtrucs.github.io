@@ -19,6 +19,23 @@ body {
     transition: opacity 0.3s;
 }
 
+.u-hidden {
+    position: absolute;
+    left: -5000px;
+}
+.u-button {
+    display: block;
+    padding: 0.5em 1em;
+    border: 0;
+    line-height: 2em;
+    color: #fff;
+    background: $color-secondary;
+    transition: 0.2s background;
+    &:hover,
+    &:focus {
+        background: $color-secondary-darken;
+    }
+}
 .u-container {
    position: absolute;
    top: 8.5em;
@@ -113,7 +130,7 @@ body {
             margin: 2em 0;
             text-align: justify;
         }
-        ul {
+        ul, ol {
             padding: 0 1em;
         }
     }
@@ -134,18 +151,7 @@ body {
 .c-comments {
     margin: 2em 0 4em;
     &__button {
-        display: block;
         margin: 0 auto;
-        padding: 0.5em 1em;
-        border: 0;
-        line-height: 2em;
-        color: #fff;
-        background: $color-secondary;
-        transition: 0.2s background;
-        &:hover,
-        &:focus {
-            background: $color-secondary-darken;
-        }
     }
     &__content {
 
@@ -200,6 +206,26 @@ body {
     }
 }
 
+.c-form {
+    &__email {
+        display: block;
+        margin: 0.5em 0 1em;
+        padding: 0 0.5em;
+        width: 100%;
+        color: $color-primary-darken;
+    }
+}
+
+.footnotes {
+    &::before {
+        content: "";
+        display: block;
+        width: 40%;
+        border-top: 1px solid;
+        margin: 0.5em 0 -1.5em;
+    }
+}
+
 
 @media screen and (min-width: 48em) {
     .u-container--left::after {
@@ -226,7 +252,9 @@ body {
         backface-visibility: hidden;
     }
     .c-media__img {
-        max-width: 36em;
+        &--large {
+            max-width: 36em;
+        }
     }
 }
 
@@ -239,6 +267,8 @@ body {
         width: calc(100% - 35em);
     }
     .c-media__img {
-        max-width: 48em;
+        &--large {
+            max-width: 48em;
+        }
     }
 }
