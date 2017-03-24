@@ -18,9 +18,9 @@ Le *Guide du Routard* indique la prestation à **1 500 $Ar** (environ 90 €) pa
 
 Sur place, l'agence *Hielo y Aventura* nous apprend que le prix de la prestation est passé à **2 400 $Ar** (environ 150 €). Ah. bah oui pourquoi la seule agence habilitée à assurer des randos sur le glacier refuserait-elle de se faire plaisir aussi ?
 
-Après mûres réflexions sur l'organisation des prochains jours, le cerveau -presque- en compote, nous lâchons les pesos :
+Après mûres réflexions sur l'organisation des prochains jours, le cerveau -presque- en compote, nous lâchons les pesos !
 
-- Billets de bus et d'entrées au *Parque Nacional de los Glaciares* afin d'admirer le glacier *Perito Moreno* depuis la berge d'en face.
+- Billets de bus et d'entrées au *Parque Nacional de los Glaciares* afin d'admirer le [glacier *Perito Moreno*](/2017/01/16/perito-moreno.html) depuis la berge d'en face.
 - Billets permettant d'entrer dans le parc *Laguna Nimez* et sa réserve d'oiseaux
 - Billets de bus pour le 17 en direction du sud de la patagonie Chilienne : *Puerto Natales* dans l'intention de faire la-dite magnifique randonnée "W" au *Parque Nacional Torres del Paine*.
 - Un *mate* pour se détendre.
